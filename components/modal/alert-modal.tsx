@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { Modal } from "../ui/modal";
+import { Button } from "../ui/button";
 
 interface AlertModalProps {
   isOpen: boolean;
@@ -32,7 +33,16 @@ const AlertModal: React.FC<AlertModalProps> = ({
       description=""
       isOpen={isOpen}
       onClose={onClose}
-    ></Modal>
+    >
+      <div className="space-x-2 pt-6 flex items-center justify-end w-full">
+        <Button disabled={loading} variant="outline" onClick={onClose}>
+          Cancel
+        </Button>
+        <Button disabled={loading} variant="destructive" onClick={onConfirm}>
+          Continue
+        </Button>
+      </div>
+    </Modal>
   );
 };
 
