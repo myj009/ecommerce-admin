@@ -14,6 +14,10 @@ export type OrderColumns = {
 
 export const columns: ColumnDef<OrderColumns>[] = [
   {
+    accessorKey: "products",
+    header: "Products",
+  },
+  {
     accessorKey: "phone",
     header: "Phone",
   },
@@ -42,9 +46,5 @@ export const columns: ColumnDef<OrderColumns>[] = [
   {
     accessorKey: "createdAt",
     header: "Date",
-  },
-  {
-    id: "actions",
-    cell: ({ row }) => <CellAction data={row.original} />,
   },
 ];
