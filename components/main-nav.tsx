@@ -61,7 +61,7 @@ export const MainNav = ({
             key={route.href}
             href={route.href}
             className={cn(
-              "text-sm text-black font-medium transition-colors hover:text-black",
+              "text-sm text-black font-medium transition-colors hover:text-black hover:dark:text-white",
               route.active
                 ? "text-black dark:text-white"
                 : "text-muted-foreground"
