@@ -4,7 +4,7 @@ https://ecommerce-admin-eight-pi.vercel.app/
 
 ## Setting Up Your Online Store
 
-[Sample Images](https://github.com/myj009/ecommerce-admin/sample_images)
+[Sample Images](https://github.com/myj009/ecommerce-admin/tree/main/sample_images)
 
 ### 1. Create Your Store
 
