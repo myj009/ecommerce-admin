@@ -2,6 +2,12 @@
 
 https://ecommerce-admin-eight-pi.vercel.app/
 
+
+
+https://github.com/user-attachments/assets/46d264d2-2e1a-4793-8c50-d48d73456f09
+
+
+
 ## Setting Up Your Online Store
 
 [Sample Images](https://github.com/myj009/ecommerce-admin/tree/main/sample_images)
